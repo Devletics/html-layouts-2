@@ -1,0 +1,62 @@
+body,html{
+	height: 100%;
+	margin:0;
+}
+.top-container {
+	height: 100px;
+	max-height: 150px;
+	background-color: white;
+	display:flex;
+	justify-content: space-around;
+	
+}
+
+.red, .blue, .grey {
+	height: 100px;
+	flex:1;
+	display: flexbox;
+}
+
+.red{
+	background-color: red;
+}
+.blue{	
+	background-color: blue;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.grey {
+	background-color: gray;	
+}
+
+.outter {
+	background: blue;
+	height:45%;
+}
+
+.inner {
+	background-color: red;
+	width:30%;
+	height:100%
+}
+
+.lowerblue{
+	background-color: blue;
+	height: 30%;
+	margin-top: 15px;
+}
+
+.lowerred {
+	background-color: red;
+	margin-left:70%;
+	width: 30%;
+	height: 100%;
+}
+
+.lowergrey {
+	width:50%;
+	height:100%;
+	background-color: gray;
+	margin: 0 auto;
+	
+}
